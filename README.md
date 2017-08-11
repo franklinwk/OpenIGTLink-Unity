@@ -14,3 +14,4 @@ The OpenIGTLinkFlag script should be added to all GameObjects that will receive 
   - Transforms currently are sent with the same name as the GameObject they are attached to up to the character limit of OpenIGTLink
   - Transforms received currently apply to objects with the same name as the transform in the OpenIGTLink message
 
+The Matrix4x4 definition originates from a SteamVR extension. A replacement implementation would be required with any project not using SteamVR.
